@@ -1,0 +1,86 @@
+body {
+    /* font-family: Consolas, monaco, monospace; */
+    font-family: cursive;
+    margin: 0px;
+
+    /* background: url('https://media.giphy.com/media/67X293Oq8KHPG/giphy.gif'); */
+    /* background: #1a1a1a; */
+
+    background: url("assets/bg.jpg");
+}
+
+.content-strong {
+    color: #df3ab5;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#trumpbg {
+    background: url('assets/trump.webp') center;
+    background-position-y: -220px;
+
+    margin: 15px auto;
+    /* margin: 40px 10px; */
+
+    width: 95%;
+    height: 190px;
+}
+
+.title {
+    display: inline;
+    color: white;
+}
+
+header>p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.content>p {
+    background-color: #ccc;
+    padding: 20px 10px 10px 10px;
+    /* box-shadow: 0px 0px 30px 1px #fff inset; */
+    color: #090909;
+    font-weight: 500;
+}
+
+#trumphand-l {
+    background: url('assets/trump.webp');
+    background-position-y: -500px;
+    float: left;
+
+}
+
+#trumphand-r {
+    background: url('assets/trump.webp');
+    background-position-y: -500px;
+    background-position-x: 500px;
+    float: right;
+}
+
+#hv {
+    width: 40%;
+    box-shadow: 0px 0px 20px 0px rgb(42, 42, 42);
+    margin-top: 66px;
+}
+
+.content {
+    text-align: center;
+    margin: 30px auto;
+    width: 95%;
+    height: 500px;
+}
+
+.trump {
+    width: 25%;
+    /* box-shadow: 0px 0px 8px 2px rgba(39, 39, 39, 0.562); */
+
+    height: 500px;
+    transition: padding 0.4s ease-in-out;
+}
+
+.trump:hover {
+    padding: 15px;
+}
